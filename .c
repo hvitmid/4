@@ -42,5 +42,5 @@ int main(void)
 	b = fabs(n / 10 % 10);
 	o = fabs(n / 100);
 	printf("Последняя цифра %d, первая %d, сумма цифр %d\n", a, o, a+b+o);
-
+	printf("%.2f", (float)o-b-a);
 }
