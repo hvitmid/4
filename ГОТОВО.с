@@ -28,5 +28,5 @@ void main(void)
 	sum2 = name(x, y, z);
 	printf("В понедельник продано на %.lf руб\n", sum1);
 	printf("Во вторник продано на %.lf руб\n", sum2);
-
+ 
 }
